@@ -11,14 +11,16 @@ ________________________________________________________________________________
 
 
 
-Technology Used
+Technology Used :
+__________________________________________________________________________________________________________________________________________
 Programming Language - Python
 Amazon Web Services
 EC2 Instance
 S3 Bucket
 Sagemaker
 Apache Kafka (distributed streaming tool)
-Dataset Used
+Dataset Used :
+___________________________________________________________________________________________________________________________________________
 Traffic Crashes Record Data
 
 Crash data shows information about each traffic crash on city streets within the City of Chicago limits. This crash data includes many parameters like street condition data, weather condition, and posted speed limits based on best available information at the time.
@@ -27,7 +29,8 @@ Original Data Source - https://catalog.data.gov/dataset/traffic-crashes-crashes
 
 Dataset used in the project.
 
-Workflow and Implementation Details
+Workflow and Implementation Details :
+______________________________________________________________________________________________________________________________________________
 Model Development
 The project began with the development of a machine learning model using Python. Started by conducting extensive data cleaning, Exploratory Data Analysis (EDA), and feature selection to ensure that only the most relevant features were used. Feature engineering was done to create new features that could improve model performance. After preparation of the data, experimentation with various classification algorithms, including Decision Trees and Random Forests was done, to build models that predict the injury severity based on accident data. The final model was selected based on its performance metrics, and was saved as a pickle file for deployment.
 
